@@ -1,0 +1,154 @@
+/*import*/
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;600&display=swap');
+
+
+
+
+/* Content */
+body{
+        margin: 0px;
+        padding: 0px;
+       font-family: 'Baloo Thambi 2'
+    }
+
+
+
+.mainLayout{
+  height: 100vh;
+  display: grid;
+  grid-auto-rows: auto 1fr auto;
+}
+
+.mainBGcolor{
+ background-color:#F2F2F2; 
+}
+
+.logo{
+  display: block;
+  width:150px;
+  margin: 20px auto 0 auto;
+}
+
+.formContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchForm{
+  display: inline-block;
+  width: 100%;
+  max-width: 900px;
+  margin: 20px auto 40px auto;
+  text-align: center;
+}
+
+
+.searchBar{
+  width:80%;
+  height: 40px;
+  border: none;
+  border-radius: 25px;
+  box-shadow:2px 2px 6px #707070 inset;
+  padding-left: 20px;
+  margin:0 auto;
+  
+}
+
+.eyeglass{
+  position: absolute;
+  margin-left: -40px;
+  margin-top: 10px;
+  width: 22px;
+  filter: drop-shadow(2px 2px 2px #707070 )
+
+}
+
+.searchPageResults, .mainContentContainer {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #707070;
+  
+}
+
+.titles{
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.imageText{
+  font-size: 14px;
+  color: #707070;
+  margin-bottom: 2px;
+  margin-top: 40px;
+  margin-left: 20px;
+
+}
+
+.homeImage{
+  width: 100%;
+  max-height: 350px;
+  object-fit: cover;
+  border-radius: 25px;
+  filter: drop-shadow(2px 2px 2px #000000);
+  
+}
+
+.linkStyle{
+  font-size: 14px;
+  color: #707070;
+  margin-left: 20px;
+  text-decoration: none;
+}
+.linkStyle:hover{
+  color: black;
+}
+
+
+
+.lineBreakStyle{
+  width: 100%;
+  height: 2px;
+  background-color: #707070;
+  border-radius: 25px;
+
+}
+
+.footerContentContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+}
+
+.footerContent{
+  width:80%;
+  margin-left: auto;
+  margin-right: auto; 
+  text-align: center;
+}
+.footerlogo{
+  width:100px;
+  margin: 40px;
+}
+.footerArrow{
+  width: 20px;
+  margin: 40px;
+  filter: drop-shadow(2px 2px 2px #707070);
+}
+
+.footerArrow:hover{
+  filter: invert();
+}
+
+@media screen and (min-width: 700px){
+
+.searchPageResults, .mainContentContainer {
+  width: 700px;
+}
+.footerContent{
+  max-width: 700px;
+}
+
+}
